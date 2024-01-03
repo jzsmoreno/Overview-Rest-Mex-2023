@@ -36,7 +36,7 @@ To create and activate the virtual environment, follow these steps:
 **Using `conda`**
 
 ```bash
-$ conda create -n streamlit python=3.10
+$ conda create -n test python=3.10
 
 # Activate the virtual environment:
 $ conda activate test
@@ -49,7 +49,7 @@ $ conda activate test
 
 ```bash
 # In this case I'm supposing that your latest python3 version is 3.10
-$ virtualenv streamlit --python=python3
+$ virtualenv test --python=python3
 
 # Activate the virtual environment:
 $ source test/bin/activate
